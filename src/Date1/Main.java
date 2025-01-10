@@ -6,7 +6,7 @@ import java.util.Locale;
 
 public class Main {
     public static void main(String[] args) {
-        String dateTimeString = "2003-06-12T13:00:00Z";
+        String dateTimeString = " 2002-03-01T13:00:00Z";
         OffsetDateTime offsetDateTime = OffsetDateTime.parse(dateTimeString);
 
         DateTimeFormatter fullFormatter = DateTimeFormatter.ofLocalizedDateTime(java.time.format.FormatStyle.FULL).localizedBy(Locale.getDefault());
